@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WalletKitFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import BigInt
+import Foundation
+import Security
+import Swift
+@_exported import WalletKitFramework
+import Web3Core
+import _Concurrency
+import _StringProcessing
+import secp256k1
+import web3swift
+public class WalletAccount : Swift.Codable {
+  public var account: Swift.String
+  public var privateKey: Swift.String
+  public var password: Swift.String!
+  public var keyData: Foundation.Data?
+  public var name: Swift.String?
+  public var recoveryPhrase: Swift.String?
+  public init(keyData: Foundation.Data, password: Swift.String, name: Swift.String, recoveryPhrase: Swift.String)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public enum BlockchainNetworkType {
+  case ethereum
+  case ropsten
+  public static func == (a: WalletKitFramework.BlockchainNetworkType, b: WalletKitFramework.BlockchainNetworkType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TransactionType {
+  case sign
+  case send
+  public static func == (a: WalletKitFramework.TransactionType, b: WalletKitFramework.TransactionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Web3Wrapper : ObjectiveC.NSObject {
+  public static let shared: WalletKitFramework.Web3Wrapper
+  public var accounts: [WalletKitFramework.WalletAccount]
+  public func createPrivateKey(password: Swift.String, network: WalletKitFramework.BlockchainNetworkType = .ethereum, words: [Swift.String]? = nil, accountIndex: Swift.Int = 0) -> Swift.String?
+  public func getAccounts() -> [WalletKitFramework.WalletAccount]
+  public func validatePassword(account: Swift.String, password: Swift.String) -> Swift.Bool
+  public func removeAccount(account: Swift.String, removeAll: Swift.Bool = false)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func performTransaction(_ type: WalletKitFramework.TransactionType, _ fromAddress: Swift.String, chainId: Swift.Int, rpcUrl: Swift.String, password: Swift.String, toAddress: Swift.String = "", gasPrice: Swift.String = "", gasLimit: Swift.String = "", value: Swift.Double = 0.0, data: Swift.String = "") async -> (Swift.String?, Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getBalance(_ account: Swift.String, chainId: Swift.Int, rpcUrl: Swift.String) async -> Swift.Double
+  #endif
+  @objc deinit
+}
+extension WalletKitFramework.BlockchainNetworkType : Swift.Equatable {}
+extension WalletKitFramework.BlockchainNetworkType : Swift.Hashable {}
+extension WalletKitFramework.TransactionType : Swift.Equatable {}
+extension WalletKitFramework.TransactionType : Swift.Hashable {}

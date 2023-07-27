@@ -1,0 +1,1879 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletAccount",
+        "printedName": "WalletAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC7accountSSvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC7accountSSvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7accountSSvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7accountSSvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7accountSSvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7accountSSvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7accountSSvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7accountSSvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privateKey",
+            "printedName": "privateKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC10privateKeySSvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC10privateKeySSvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC10privateKeySSvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC10privateKeySSvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC10privateKeySSvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC10privateKeySSvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC10privateKeySSvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC10privateKeySSvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "password",
+            "printedName": "password",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC8passwordSSSgvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC8passwordSSSgvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC8passwordSSSgvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC8passwordSSSgvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC8passwordSSSgvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC8passwordSSSgvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC8passwordSSSgvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC8passwordSSSgvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyData",
+            "printedName": "keyData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC7keyData10Foundation0F0VSgvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC4nameSSSgvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC4nameSSSgvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC4nameSSSgvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC4nameSSSgvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC4nameSSSgvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC4nameSSSgvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC4nameSSSgvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC4nameSSSgvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recoveryPhrase",
+            "printedName": "recoveryPhrase",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvp",
+            "mangledName": "$s18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvg",
+                "mangledName": "$s18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvs",
+                "mangledName": "$s18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvM",
+                "mangledName": "$s18WalletKitFramework0A7AccountC14recoveryPhraseSSSgvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(keyData:password:name:recoveryPhrase:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletAccount",
+                "printedName": "WalletKitFramework.WalletAccount",
+                "usr": "s:18WalletKitFramework0A7AccountC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18WalletKitFramework0A7AccountC7keyData8password4name14recoveryPhraseAC10Foundation0F0V_S3Stcfc",
+            "mangledName": "$s18WalletKitFramework0A7AccountC7keyData8password4name14recoveryPhraseAC10Foundation0F0V_S3Stcfc",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletAccount",
+                "printedName": "WalletKitFramework.WalletAccount",
+                "usr": "s:18WalletKitFramework0A7AccountC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18WalletKitFramework0A7AccountC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18WalletKitFramework0A7AccountC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework0A7AccountC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18WalletKitFramework0A7AccountC6encode2toys7Encoder_p_tKF",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18WalletKitFramework0A7AccountC",
+        "mangledName": "$s18WalletKitFramework0A7AccountC",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "web3swift",
+        "printedName": "web3swift",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Web3Core",
+        "printedName": "Web3Core",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "BigInt",
+        "printedName": "BigInt",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "secp256k1",
+        "printedName": "secp256k1",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BlockchainNetworkType",
+        "printedName": "BlockchainNetworkType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ethereum",
+            "printedName": "ethereum",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalletKitFramework.BlockchainNetworkType.Type) -> WalletKitFramework.BlockchainNetworkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BlockchainNetworkType",
+                    "printedName": "WalletKitFramework.BlockchainNetworkType",
+                    "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalletKitFramework.BlockchainNetworkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BlockchainNetworkType",
+                        "printedName": "WalletKitFramework.BlockchainNetworkType",
+                        "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO8ethereumyA2CmF",
+            "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO8ethereumyA2CmF",
+            "moduleName": "WalletKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ropsten",
+            "printedName": "ropsten",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalletKitFramework.BlockchainNetworkType.Type) -> WalletKitFramework.BlockchainNetworkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BlockchainNetworkType",
+                    "printedName": "WalletKitFramework.BlockchainNetworkType",
+                    "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalletKitFramework.BlockchainNetworkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BlockchainNetworkType",
+                        "printedName": "WalletKitFramework.BlockchainNetworkType",
+                        "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO7ropstenyA2CmF",
+            "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO7ropstenyA2CmF",
+            "moduleName": "WalletKitFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BlockchainNetworkType",
+                "printedName": "WalletKitFramework.BlockchainNetworkType",
+                "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BlockchainNetworkType",
+                "printedName": "WalletKitFramework.BlockchainNetworkType",
+                "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "WalletKitFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO9hashValueSivp",
+            "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO9hashValueSivp",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO9hashValueSivg",
+                "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO9hashValueSivg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO",
+        "mangledName": "$s18WalletKitFramework21BlockchainNetworkTypeO",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionType",
+        "printedName": "TransactionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sign",
+            "printedName": "sign",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalletKitFramework.TransactionType.Type) -> WalletKitFramework.TransactionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionType",
+                    "printedName": "WalletKitFramework.TransactionType",
+                    "usr": "s:18WalletKitFramework15TransactionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalletKitFramework.TransactionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "WalletKitFramework.TransactionType",
+                        "usr": "s:18WalletKitFramework15TransactionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WalletKitFramework15TransactionTypeO4signyA2CmF",
+            "mangledName": "$s18WalletKitFramework15TransactionTypeO4signyA2CmF",
+            "moduleName": "WalletKitFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "send",
+            "printedName": "send",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalletKitFramework.TransactionType.Type) -> WalletKitFramework.TransactionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionType",
+                    "printedName": "WalletKitFramework.TransactionType",
+                    "usr": "s:18WalletKitFramework15TransactionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalletKitFramework.TransactionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "WalletKitFramework.TransactionType",
+                        "usr": "s:18WalletKitFramework15TransactionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WalletKitFramework15TransactionTypeO4sendyA2CmF",
+            "mangledName": "$s18WalletKitFramework15TransactionTypeO4sendyA2CmF",
+            "moduleName": "WalletKitFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionType",
+                "printedName": "WalletKitFramework.TransactionType",
+                "usr": "s:18WalletKitFramework15TransactionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionType",
+                "printedName": "WalletKitFramework.TransactionType",
+                "usr": "s:18WalletKitFramework15TransactionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework15TransactionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18WalletKitFramework15TransactionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "WalletKitFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework15TransactionTypeO9hashValueSivp",
+            "mangledName": "$s18WalletKitFramework15TransactionTypeO9hashValueSivp",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework15TransactionTypeO9hashValueSivg",
+                "mangledName": "$s18WalletKitFramework15TransactionTypeO9hashValueSivg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework15TransactionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18WalletKitFramework15TransactionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "WalletKitFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18WalletKitFramework15TransactionTypeO",
+        "mangledName": "$s18WalletKitFramework15TransactionTypeO",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Web3Wrapper",
+        "printedName": "Web3Wrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Web3Wrapper",
+                "printedName": "WalletKitFramework.Web3Wrapper",
+                "usr": "c:@M@WalletKitFramework@objc(cs)Web3Wrapper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework11Web3WrapperC6sharedACvpZ",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC6sharedACvpZ",
+            "moduleName": "WalletKitFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Web3Wrapper",
+                    "printedName": "WalletKitFramework.Web3Wrapper",
+                    "usr": "c:@M@WalletKitFramework@objc(cs)Web3Wrapper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework11Web3WrapperC6sharedACvgZ",
+                "mangledName": "$s18WalletKitFramework11Web3WrapperC6sharedACvgZ",
+                "moduleName": "WalletKitFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accounts",
+            "printedName": "accounts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WalletKitFramework.WalletAccount]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletAccount",
+                    "printedName": "WalletKitFramework.WalletAccount",
+                    "usr": "s:18WalletKitFramework0A7AccountC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvp",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvp",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WalletKitFramework.WalletAccount]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletAccount",
+                        "printedName": "WalletKitFramework.WalletAccount",
+                        "usr": "s:18WalletKitFramework0A7AccountC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvg",
+                "mangledName": "$s18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvg",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WalletKitFramework.WalletAccount]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletAccount",
+                        "printedName": "WalletKitFramework.WalletAccount",
+                        "usr": "s:18WalletKitFramework0A7AccountC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvs",
+                "mangledName": "$s18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvs",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvM",
+                "mangledName": "$s18WalletKitFramework11Web3WrapperC8accountsSayAA0A7AccountCGvM",
+                "moduleName": "WalletKitFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "createPrivateKey",
+            "printedName": "createPrivateKey(password:network:words:accountIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BlockchainNetworkType",
+                "printedName": "WalletKitFramework.BlockchainNetworkType",
+                "hasDefaultArg": true,
+                "usr": "s:18WalletKitFramework21BlockchainNetworkTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC16createPrivateKey8password7network5words12accountIndexSSSgSS_AA21BlockchainNetworkTypeOSaySSGSgSitF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC16createPrivateKey8password7network5words12accountIndexSSSgSS_AA21BlockchainNetworkTypeOSaySSGSgSitF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAccounts",
+            "printedName": "getAccounts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WalletKitFramework.WalletAccount]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletAccount",
+                    "printedName": "WalletKitFramework.WalletAccount",
+                    "usr": "s:18WalletKitFramework0A7AccountC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC11getAccountsSayAA0A7AccountCGyF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC11getAccountsSayAA0A7AccountCGyF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validatePassword",
+            "printedName": "validatePassword(account:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC16validatePassword7account8passwordSbSS_SStF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC16validatePassword7account8passwordSbSS_SStF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAccount",
+            "printedName": "removeAccount(account:removeAll:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC13removeAccount7account0F3AllySS_SbtF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC13removeAccount7account0F3AllySS_SbtF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performTransaction",
+            "printedName": "performTransaction(_:_:chainId:rpcUrl:password:toAddress:gasPrice:gasLimit:value:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String?, Swift.String?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionType",
+                "printedName": "WalletKitFramework.TransactionType",
+                "usr": "s:18WalletKitFramework15TransactionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC18performTransaction__7chainId6rpcUrl8password9toAddress8gasPrice0O5Limit5value4dataSSSg_AMtAA0G4TypeO_SSSiS5SSdSStYaF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC18performTransaction__7chainId6rpcUrl8password9toAddress8gasPrice0O5Limit5value4dataSSSg_AMtAA0G4TypeO_SSSiS5SSdSStYaF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBalance",
+            "printedName": "getBalance(_:chainId:rpcUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WalletKitFramework11Web3WrapperC10getBalance_7chainId6rpcUrlSdSS_SiSStYaF",
+            "mangledName": "$s18WalletKitFramework11Web3WrapperC10getBalance_7chainId6rpcUrlSdSS_SiSStYaF",
+            "moduleName": "WalletKitFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WalletKitFramework@objc(cs)Web3Wrapper",
+        "mangledName": "$s18WalletKitFramework11Web3WrapperC",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalletKitFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/WalletAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/WalletAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 16,
+      "value": "\"m\/44'\/60'\/0'\/0\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 15,
+      "value": "\"m\/44'\/1'\/0'\/0\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6630,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 8634,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/WalletService\/Web3Wrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 8654,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 19,
+      "value": "\"%Cy5Bi5Acq&3GaEE!\""
+    },
+    {
+      "filePath": "\/Users\/awais\/Work\/WalletSDK\/Framework\/WalletKitFramework\/WalletKitFramework\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 18,
+      "value": "\"MR@tfE^qv0#D0DoD\""
+    }
+  ]
+}
